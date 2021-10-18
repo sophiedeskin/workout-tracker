@@ -36,7 +36,9 @@ router.post("/api/workouts", ({ body }, res) => {
       params.id,
       { $push: { exercises: body } },
   
-      { new: true, runValidators: true }
+      { new: true
+        // , runValidators: true 
+      }
     )
       .then(dbWorkout => {
         res.json(dbWorkout);
