@@ -2,6 +2,8 @@
 
 Link to deployed app: https://workout-tracker-853654.herokuapp.com/?id=616ca8c944485400161e1286
 
+![screenshot of app](./img.png) 
+
 For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
 
 ## User Story
